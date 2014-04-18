@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Multi Mouse with Firebase</title>
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body ng-app="multiMouseApp" record-mouse="mouse">
+
+    <ul class="mouse-list" ng-controller="MultiMouseCtrl">
+      <li ng-repeat="mouse in connectedMouses">
+        <div class="mouse" mouse="mouse">
+          <span class="uuid">{{ mouse.uuid }}</span>
+        </div>
+      </li>
+    </ul>
+
+
+    <!-- Bower vendor -->
+    <script src="components/lodash/dist/lodash.min.js"></script>
+    <script src="components/node-uuid/uuid.js"></script>
+    <script src="components/angular/angular.js"></script>
+    <script src="components/firebase/firebase.js"></script>
+    <script src="components/angularfire/angularfire.min.js"></script>
+    <script src="components/angular-route/angular-route.js"></script>
+    <script src="components/angular-ui-router/release/angular-ui-router.js"></script>
+
+    <!-- Other vendor -->
+    <script src="vendor/underscore.string.min.js"></script>
+
+    <!-- App -->
+    <script src="app/app.js"></script>
+
+    <!-- Modules -->
+    <script src="app/services/current-mouse.js"></script>
+    <script src="app/services/connected-mouses.js"></script>
+    <script src="app/controllers/mouses.js"></script>
+    <script src="app/directives/record-mouse.js"></script>
+    <script src="app/directives/mouse.js"></script>
+</body>
+</html>

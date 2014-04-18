@@ -1,0 +1,45 @@
+
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.mouse-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mouse {
+  position: absolute;
+  height: 22px;
+  width: 17px;
+  margin-top: -4px;
+  margin-left: -4px;
+  cursor: pointer;
+  background: url("../images/cursor.gif") no-repeat;
+  opacity: 0.5;
+  transition: opacity 250ms;
+}
+
+.mouse:hover {
+  opacity: 1;
+}
+
+.mouse.current-mouse {
+  display: none;
+}
+
+.mouse .uuid {
+  width: 280px;
+  display: block;
+  margin-left: -130px;
+  margin-top: -38px;
+  color: rgb(102, 102, 102);
+  background-color: rgb(238, 238, 238);
+  text-align: center;
+  border: 1px solid rgb(221, 221, 221);
+  padding: 5px;
+}
