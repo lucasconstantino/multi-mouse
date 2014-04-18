@@ -1,6 +1,8 @@
 
 ## Requirements
 
+<img src="http://37.media.tumblr.com/tumblr_m1f3r62zdJ1rqifp9o1_400.gif" alt="" style="float: right" />
+
 There is some requirements you have to meet in order to try this POC:
 
 1. Having an account and base at [Firebase](https://www.firebase.com/) (it's free \o/);
