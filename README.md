@@ -5,7 +5,7 @@
 There is some requirements you have to meet in order to try this POC:
 
 1. Having an account and base at [Firebase](https://www.firebase.com/) (it's free \o/);
-2. Knowing how to write arrays with JavaScript;
+2. Being able to write arrays with JavaScript;
 3. Having a friend or two who is willing to try this project also (sorry, bro);
 4. Having patience to debug if something go wrong.
 
