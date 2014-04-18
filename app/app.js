@@ -11,8 +11,4 @@ angular.module('multiMouseApp', [
   /**
    * Application configuration.
    */
-  .constant('settings', {
-    firebase: {
-      url: 'https://multi-mouse.firebaseio.com/'
-    }
-  });
+  .constant('settings', config);
