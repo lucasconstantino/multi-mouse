@@ -1,7 +1,6 @@
-
 ## Requirements
 
-<img src="http://37.media.tumblr.com/tumblr_m1f3r62zdJ1rqifp9o1_400.gif" alt="" style="float: right" />
+<img src="http://37.media.tumblr.com/tumblr_m1f3r62zdJ1rqifp9o1_400.gif" align="right" />
 
 There is some requirements you have to meet in order to try this POC:
 
